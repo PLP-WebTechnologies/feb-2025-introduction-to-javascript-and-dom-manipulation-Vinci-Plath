@@ -1,0 +1,110 @@
+:root {
+    --primary-green: #2e8b57;
+    --secondary-green: #3cb371;
+    --light-green: #90ee90;
+    --dark-green: #006400;
+    --earth-brown: #8b4513;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.climate-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--primary-green);
+    color: white;
+    border-radius: 8px;
+}
+
+.tagline {
+    font-style: italic;
+    margin-top: -15px;
+}
+
+.climate-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.climate-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.climate-btn {
+    padding: 10px 15px;
+    background-color: var(--secondary-green);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.climate-btn:hover {
+    background-color: var(--dark-green);
+    transform: translateY(-2px);
+}
+
+#calculator-box {
+    width: 100%;
+    height: 120px;
+    background-color: var(--light-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.climate-footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: var(--earth-brown);
+    color: white;
+    border-radius: 8px;
+}
+
+.social-icons {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.action-item {
+    background-color: #e1f5fe;
+    color: #01579b;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #b3e5fc;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.action-item::before {
+    content: "🌿";
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.fact-highlight {
+    font-weight: bold;
+    color: var(--dark-green);
+}
